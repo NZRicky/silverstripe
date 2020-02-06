@@ -2,6 +2,7 @@
 
 namespace {
 
+    use App\Entity\Player;
     use SilverStripe\CMS\Controllers\ContentController;
 
     class PageController extends ContentController
@@ -25,6 +26,10 @@ namespace {
 
         protected function init()
         {
+
+            $player = new Player();
+            $player->set
+
             parent::init();
             // You can include any CSS or JS required by your project here.
             // See: https://docs.silverstripe.org/en/developer_guides/templates/requirements/

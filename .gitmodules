@@ -1,0 +1,3 @@
+[submodule "mymoney"]
+	path = mymoney
+	url = git@github.com:NZRicky/mymoney.git

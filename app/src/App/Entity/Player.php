@@ -2,9 +2,15 @@
 
 namespace App\Entity;
 
-use SilverStripe\
+use SilverStripe\ORM\DataObject;
 
-class Player
+class Player extends DataObject
 {
+    private static $db = [
+        'PlayerNumber' => 'Int',
+        'FirstName' => 'Varchar(255)',
+        'LastName' => 'Text',
+        'Birthday' => 'Date'
+    ];
 
 }
